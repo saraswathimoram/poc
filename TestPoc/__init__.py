@@ -1,1 +1,3 @@
-__version__ = '0.1.0' # pragma: no cover
+#!/usr/bin/env python
+"""
+Running POC for jenins configuration
