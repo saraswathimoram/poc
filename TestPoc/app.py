@@ -4,8 +4,7 @@
 Checing Codecoverage, pyling, unitest
 """
 
-def add(arg1, arg2):
-    """ function will add two values"""
+def add(arg1, arg2):    
     return arg1+arg2
 
 k = 0
