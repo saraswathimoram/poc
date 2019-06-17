@@ -1,6 +1,9 @@
 import unittest
 import app
 
+"""
+app.py testcases
+"""
 
 class Testcalc(unittest.TestCase):
 
@@ -10,7 +13,7 @@ class Testcalc(unittest.TestCase):
     
     def test_add(self):
         self.assertEqual(app.add(self.x, self.y), 15)
-        self.assertEqual(app.add(2,3), 5)
+        self.assertEqual(app.add(2, 3), 5)
         
     def test_sub(self):
         self.assertEqual(app.subtract(self.x, self.y), 5)
